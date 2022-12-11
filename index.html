@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Sistema de Controle de Finanças</title>
+</head>
+<body>
+    <main>
+        <div class="resume">
+            <div>
+                Entradas: R$
+                <span class="entradas">0.00</span>
+            </div>
+            <div>
+                Saidas: R$
+                <span class="saidas">0.00</span>
+            </div>
+            <div>
+                Total: R$
+                <span class="total">0.00</span>
+            </div>
+        </div>
+        <div class="novoLancamento">
+            <div class="divDescricao">
+                <label for="desc">Descrição</label>
+                <input type="text" id="desc">
+            </div>
+            <div class="divValor">
+                <label for="valor">Valor</label>
+                <input type="text" id="valor">     
+            </div>
+            <div class="divTipo">
+                <label for="tipo">Tipo</label>
+                <select id="tipo">
+                    <option>Entrada</option>            
+                    <option>Saida</option>
+                </select>
+            </div>
+            <button id="btnIncluir">Incluir</button>
+        </div>
+    </main>
+
+
+
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
