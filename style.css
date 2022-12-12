@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    outline: none;
+}
+
+
+
+body{
+    background-color: #0f0e17;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+main{
+    max-width: 550px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resumo{
+    display: flex;
+    padding: 10px 0;
+    gap: 40px;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+ 
+.resumo>div{
+    border-radius: 53px;
+    background: linear-gradient(145deg, #fffffe, #fffffe);
+    box-shadow:  5px 5px 45px ##a7a9be,
+                -5px -5px 45px ##a7a9be;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+}
+.h1{
+    color: #fffffe;
+    text-align: center;
+    font-size: 30px;
+    margin: 50px;
+}
+.novoLancamento{
+    display: flex;
+    gap: 10px;
+    align-items: end;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.divDescricao, .divValor, .divTipo{
+    display: flex;
+    flex-direction: column;
+color: #a7a9be;;
+}
+
+.novoLancamento>button{
+    background-color:#ff8906;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+input, select {
+    padding: 5px;
+}
+
+.divTabela{
+    width: 100%;
+    display: flex;
+    color: #a7a9be;
+    justify-content: center;
+}
+
+table{
+    width: 98%;
+    padding: 20px 0px;
+    border-radius: 5px;
+}
+
+th{
+    text-align: start;
+    border-bottom: inset;
+    padding-bottom: 5px;
+}
+
+i{
+    font-size: 25px;    
+}
+
+.bxs-chevron-up-circle {
+    color: #00C9A7;
+}
+.bxs-chevron-down-circle {
+    color: #D83121;
+}
+
+.colunaDeletar{
+    width: 40px;
+    text-align: center;
+}
+
+.colunaDeletar>button{
+    background: transparent;
+    border: none;
+}
+
+.colunaValor{
+    width: 30%;
+}
+
+.colunaTipo{
+    width: 80px;
+    text-align: center;
+}
+
+
+
+@keyframes animate{
+    0%{
+      background-position: 0 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0 50%;
+    }
+  }
